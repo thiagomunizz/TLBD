@@ -53,7 +53,7 @@ add constraint fk_id_venda
 foreign key (id_venda)
 references tb_vendas(id_venda)
 
-insert into tb_clientes (id_cliente,nome, endereco, fone, email)
+insert into tb_clientes (nome, endereco, fone, email)
 values ('joao', 'rua1', '23', 'a@b') 
  
 insert into tb_vendas (id_cliente)
